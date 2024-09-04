@@ -1,18 +1,11 @@
-[English Readme](/README_EN.md)
-# Enter Affective Cloud Demo 
-
 ## 简介
 
-这个演示应用集成了基础蓝牙功能、蓝牙设备管理界面、情感云SDK、以及自定义的数据展示控件，较好的展示了脑波及心率数据从
-硬件中采集到上传情感云实时分析最后产生分析报表及数据展示的整个过程。
+为了能够从脑电头环中获得各类情感云信息等，我们依靠回车科技的sdk，集成了回车科技的基础蓝牙功能、蓝牙设备管理界面、情感云SDK、以及自定义的数据展示控件。
 
-## Demo下载
-
-[心流.apk](http://fir.entertech.cn/gm85)
 
 ## 模块说明
 
-如上所述，该应用集成以下四个模块：
+这个应用集成以下四个模块，以下几个模块sdk都可以在回车科技的官网上下载：
 
 - [蓝牙SDK](https://github.com/Entertech/Enter-Biomodule-BLE-Android-SDK/tree/master/ble)
 - [蓝牙设备管理SDK](https://github.com/Entertech/Enter-Biomodule-BLE-Android-SDK/tree/master/bleuisdk)
