@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+        >
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:textColor="#232323"
+                android:lineSpacingExtra="6sp"
+                android:text="@string/heart_rate"
+                />
+
+        <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_sample"
+                android:layout_marginLeft="@dimen/activity_margin_half"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:textColor="#666666"
+                android:lineSpacingExtra="4sp"
+                android:gravity="end"
+                android:text="(Sample)"
+                />
+    </LinearLayout>
+
+    <cn.entertech.uicomponentsdk.realtime.RealtimeHeartRateView
+        android:id="@+id/heart_rate"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"/>
+
+    <cn.entertech.uicomponentsdk.realtime.RealtimeBreathCoherenceView
+        android:id="@+id/realtime_hrv"
+        android:layout_marginTop="8dp"
+        app:rhrvv_titleText="Breath Coherence"
+        app:rhrvv_buffer="10"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        app:rhrvv_maxValue="120"
+        app:rhrvv_refreshTime="600"/>
+</LinearLayout>

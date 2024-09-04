@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">心流</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">首页</string>
+    <string name="statistics">统计</string>
+    <string name="me">我的</string>
+    <string name="start_meditation">开始</string>
+    <string name="setting">设置</string>
+    <string name="help_center">帮助中心</string>
+    <string name="term_of_serivce">使用条款</string>
+    <string name="privacy">隐私政策</string>
+    <string name="minutes">分钟</string>
+    <string name="wear_state">佩戴状态</string>
+    <string name="wear_tip_content">佩戴头环，根据提示调整电极接触。提示点对应头环上最左、中间和最右的电极点。</string>
+    <string name="wear_state_left">左边</string>
+    <string name="wear_state_right">右边</string>
+    <string name="wear_state_normal">连接正常</string>
+    <string name="brainwave_spectrum">脑电波频谱</string>
+    <string name="change_during_meditation">在冥想中的变化</string>
+    <string name="about_brainwave">脑电波各频率比的变化反映了冥想时精神状态的变化。</string>
+    <string name="about_hrv">HRV随冥想状态而变化。 在放松状态下，HRV通常较高。 通过长期的冥想练习，HRV的整体水平将提高。</string>
+    <string name="about_hr">通常，心率的变化是无序的。 通过长期训练，可以在冥想过程中以一定的周期性节律看到心率。 此时，呼吸和心跳达到协调状态。</string>
+    <string name="about_relaxation_attention">如果您没有长期的冥想训练，则您在特定大脑状态下的脑电波会集中。 当您聚焦时，“放松”值通常较低，而当您放松时，“关注”值较低。 注意和放松是互斥的。 经过长期的冥想练习，脑电波的传播范围更加广泛甚至均匀。 您可以同时获得高分的注意力和放松度，从而放松身心并集中精力。 在这种状态下，更容易获得灵感和创造力。</string>
+    <string name="about_pressure">深呼吸训练可以有效地减轻压力，长期冥想训练可以提高压力的适应能力。 压力和松弛图在物理和生理水平上反映您的松弛状态。</string>
+    <string name="brainwave">脑电波</string>
+    <string name="hrv">心率变异性（HRV）</string>
+    <string name="heart_rate">心率</string>
+    <string name="realxation_and_attention">专注度&#038;放松度</string>
+    <string name="pressure">压力值</string>
+    <string name="learn_more">更多</string>
+    <string name="about">关于</string>
+
+
+    <string name="tip1_content">我们提供了 3 种不同尺寸的橡胶带，请选择合适的尺寸，确保传感器贴合前额皮肤。</string>
+    <string name="tip1_title">提示 1</string>
+    <string name="tip2_content">调整头戴，让传感器贴合你额头中间位置的皮肤。</string>
+    <string name="tip2_title">提示 2</string>
+    <string name="tip3_content">传感器需要和皮肤直接接触，所以不能有头发在传感器和皮肤的之间。</string>
+    <string name="tip3_title">提示 3</string>
+    <string name="tip4_content">脸部的肌肉活动，比如眼球运动和说话，会引起信号干扰。如果信号不是很稳定，试着让你的脸和眼睛放松。</string>
+    <string name="tip4_title">提示 4</string>
+    <string name="tip5_content">护肤品、化妆品和皮肤上的油脂会阻碍传感器检测信号。用湿巾擦拭皮肤，可能会改善你的信号。</string>
+    <string name="tip5_title">提示 5</string>
+    <string name="tip6_content">干性皮肤或者在环境引起的皮肤干燥会影响传感器检测信号。用湿巾擦拭传感器可以改善信号。</string>
+    <string name="tip6_title">提示 6</string>
+    <string name="tip7_content">每次调整后，需要 30 秒到 1 分钟左右的时间来检测信号，请耐心等待。</string>
+    <string name="tip7_title">提示 7</string>
+
+    <string name="device_time_left">剩余%1$d小时</string>
+    <string name="device_min_left">剩余%1$d分钟</string>
+    <string name="activity_device_status_device_status">设备状态</string>
+    <string name="activity_device_status_sensor_contact_check">佩戴检测</string>
+    <string name="activity_device_status_11">佩戴头戴并根据引导调整传感器</string>
+    <string name="sensor_contact_check">佩戴检测</string>
+    <string name="skip">跳过</string>
+    <string name="checking">检测中...</string>
+    <string name="well_done">干得好!</string>
+    <string name="emotion">情绪面板</string>
+    <string name="min">分</string>
+    <string name="second">秒</string>
+</resources>

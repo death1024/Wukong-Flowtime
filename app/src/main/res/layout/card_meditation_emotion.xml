@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:lineSpacingExtra="6sp"
+            android:text="@string/emotion"
+            android:textColor="#232323"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tv_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_margin_half"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="end"
+            android:lineSpacingExtra="4sp"
+            android:text="(Sample)"
+            android:textColor="#666666"
+            android:textSize="12sp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:orientation="horizontal">
+
+
+        <cn.entertech.uicomponentsdk.realtime.RealtimeAffectiveView
+            android:id="@+id/realtime_attention_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            app:rav_affectiveType="Attention"
+            app:rav_background="@drawable/shape_realtime_attention_bg"
+            app:rav_mainColor="#5fc695" />
+
+        <cn.entertech.uicomponentsdk.realtime.RealtimeAffectiveView
+            android:id="@+id/realtime_relaxation_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:rav_affectiveType="Relaxation"
+            app:rav_background="@drawable/shape_realtime_relaxation_bg"
+            app:rav_mainColor="#4b5dcc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_half"
+        android:orientation="horizontal">
+
+
+        <cn.entertech.uicomponentsdk.realtime.RealtimeAffectiveView
+            android:id="@+id/realtime_pressure_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            app:rav_affectiveType="Pressure"
+            app:rav_background="@drawable/shape_realtime_pressure_bg"
+            app:rav_mainColor="#ff6682" />
+
+        <cn.entertech.uicomponentsdk.realtime.RealtimeAffectiveView
+            android:id="@+id/realtime_arousal_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible"
+            app:rav_affectiveType="Arousal"
+            app:rav_background="@drawable/shape_realtime_arousal_bg"
+            app:rav_mainColor="#CC9E59" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_half"
+        android:orientation="horizontal">
+
+
+        <cn.entertech.uicomponentsdk.realtime.RealtimeAffectiveView
+            android:id="@+id/realtime_coherence_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            app:rav_affectiveType="Coherence"
+            app:rav_background="@drawable/shape_realtime_relaxation_bg"
+            app:rav_mainColor="#4b5dcc" />
+
+        <cn.entertech.uicomponentsdk.realtime.RealtimeAffectiveView
+            android:id="@+id/realtime_pleasure_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="visible"
+            app:rav_affectiveType="Pleasure"
+            app:rav_background="@drawable/shape_realtime_coherence_bg"
+            app:rav_mainColor="#52A27C" />
+    </LinearLayout>
+
+</LinearLayout>
